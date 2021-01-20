@@ -69,7 +69,7 @@ javascript: (function() {
                     let text_array = text.split("\n");
 
                     if (text_array.length > 1) {
-                        text = text_array.join(",");
+                        text = text_array.join("|");
                     }
                     return '"' + text + '"';
                 });
